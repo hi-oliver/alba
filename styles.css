@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
 BODY {
-  background-color: #f7ebf3;
+  background-color: #3d3d3d;
   text-align: center;
   margin-left: 0;
   margin-right: 0;
@@ -9,13 +9,90 @@ BODY {
 }
 .GenTitle {
   font-family: 'Raleway', sans-serif;
+  color: #fff;
   font-size: 35px;
   text-align: center;
 }
 .SubGenTitle {
   font-family: 'Raleway', sans-serif;
   font-size: 12.5px;
+  color: #fff;
   text-align: center;
+}
+.HomeHeader {
+  background: rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px) saturate(100%) contrast(60%) brightness(130%);
+  width: 100%;
+  position: fixed;
+}
+.HomeHeaderLogo {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.First-Page-Title {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.First_Page_Building_Block {
+  padding-top: 15px;
+  background-color: #000000;
+  margin-bottom: 10px;
+}
+.First_Page_Building_Block_GTitile {
+  font-family: 'Raleway', sans-serif;
+  font-size: 35px;
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+}
+.WHITE_Block_SBTitile {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  font-weight: 500;
+}
+.WHITE_Block_Link {
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  color: #61A1A3;
+  text-align: center;
+  font-weight: 500;
+}
+.First_Page_Building_Block_img {
+  width:300px;
+  margin-top: 15px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.CELLAR {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #d9d9d9;
+}
+.CELLAR-END-TEXT{
+font-family: 'Roboto', sans-serif;
+font-size: 13px;
+text-align: center;
+text-decoration: none;
+}
+.CELLAR-NAV {
+font-family: 'Raleway', sans-serif;
+font-size: 13px;
+text-align: center;
+text-decoration: none;
+}
+#CEL-TDN {
+  text-decoration: none;
+  color: #000;
+}
+#CEL-CUT {
+  font-family: 'Raleway', sans-serif;
+  color: grey;
+font-size: 13px;
+text-align: center;
 }
 .CompanyWays {
   background: black;
