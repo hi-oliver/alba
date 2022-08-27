@@ -141,7 +141,6 @@ text-decoration: none;
   font-family: 'Raleway', sans-serif;
   font-size: 17px;
   color: #61A1A3;
-  margin-left: -80%;
   font-weight: 550;
 }
 .SelectLangLinkBack:hover {
@@ -150,7 +149,7 @@ text-decoration: none;
 #LangBACKGROUND:target {display: block;}
 .LangCONTAINER {
   width: 300px;
-  height: 115px;
+  height: 130px;
   padding: 15px;
   border-radius: 10px;
   background: rgba(255, 255, 255, 0.2);
