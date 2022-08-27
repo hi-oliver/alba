@@ -152,7 +152,7 @@ text-decoration: none;
   height: 140px;
   padding: 15px;
   border-radius: 10px;
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(15px) saturate(100%) contrast(60%) brightness(130%);
   position: absolute;
