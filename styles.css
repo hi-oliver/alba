@@ -61,6 +61,9 @@ BODY {
   text-align: center;
   font-weight: 500;
 }
+.WHITE_Block_Link:hover {
+  text-decoration: underline;
+}
 .First_Page_Building_Block_img {
   width:300px;
   margin-top: 15px;
@@ -86,6 +89,10 @@ text-decoration: none;
 }
 #CEL-TDN {
   text-decoration: none;
+  color: #000;
+}
+#CEL-TDN:hover {
+  text-decoration: underline;
   color: #000;
 }
 #CEL-CUT {
