@@ -73,9 +73,10 @@ BODY {
 .CELLAR {
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: #d9d9d9;
+  background-color: #1a1a1a;
 }
 .CELLAR-END-TEXT{
+  color: #fff;
 font-family: 'Roboto', sans-serif;
 font-size: 13px;
 text-align: center;
@@ -87,13 +88,99 @@ font-size: 13px;
 text-align: center;
 text-decoration: none;
 }
+.LangCONTAINER {
+
+}
+.LinkToLanguageSelect {
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  color: #61A1A3;
+  text-align: center;
+  font-weight: 500;
+}
+.LinkToLanguageSelect:hover {
+  text-decoration: underline;
+}
+#LangBACKGROUND  {
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  }
+.SelectedLangLink {
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  color: #61A1A3;
+  text-align: center;
+  font-weight: 550;
+}
+.LanguageTitle {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+}
+.SelectLangLink {
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  color: #fff;
+  text-align: center;
+  font-weight: 500;
+}
+.SelectLangLink:hover {
+  text-decoration: underline;
+}
+.SelectLangLinkBack {
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: 17px;
+  color: #61A1A3;
+  margin-left: -80%;
+  font-weight: 550;
+}
+.SelectLangLinkBack:hover {
+  text-decoration: underline;
+}
+#LangBACKGROUND:target {display: block;}
+.LangCONTAINER {
+  width: 300px;
+  height: 115px;
+  padding: 15px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px) saturate(100%) contrast(60%) brightness(130%);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;;
+  }
+.close {
+  display: inline-block;
+  border: 1px solid #0000cc;
+  color: #0000cc;
+  padding: 0 12px;
+  margin: 10px;
+  text-decoration: none;
+  background: #f2f2f2;
+  font-size: 14pt;
+  cursor:pointer;
+  }
 #CEL-TDN {
   text-decoration: none;
-  color: #000;
+  color: #fff;
 }
 #CEL-TDN:hover {
   text-decoration: underline;
-  color: #000;
+  color: #fff;
 }
 #CEL-CUT {
   font-family: 'Raleway', sans-serif;
