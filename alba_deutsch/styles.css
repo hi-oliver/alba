@@ -4,6 +4,60 @@ BODY {
   text-align: center;
   margin: 0;
 }
+.preloader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  background: #3d3d3d;
+  z-index: 9998;
+}
+.preloader___photo{
+  z-index: 9999;
+  animation: loading 5s infinite ease-in-out;
+}
+@keyframes identifier {
+  0% {
+    opacity: 1
+  }
+  20% {
+    opacity: 0.6
+  }
+  50% {
+    opacity: 0.4
+  }
+  100% {
+    opacity: 1
+  }
+}
+.preloader__image {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: 70px;
+  height: 70px;
+  margin-top: -35px;
+  margin-left: -35px;
+  text-align: center;
+  animation: preloader-rotate 2s infinite linear;
+}
+
+@keyframes preloader-rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loaded_hiding .preloader {
+  transition: 0.3s opacity;
+  opacity: 0;
+}
+
+.loaded .preloader {
+  display: none;
+}
 .GenTitle {
   font-family: 'Raleway', sans-serif;
   color: #fff;
