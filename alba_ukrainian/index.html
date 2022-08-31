@@ -16,6 +16,18 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <script>
+window.onload = function () {
+  document.body.classList.add('loaded_hiding');
+  window.setTimeout(function () {
+    document.body.classList.add('loaded');
+    document.body.classList.remove('loaded_hiding');
+  }, 500);
+}
+</script>
+  <div class="preloader">
+ <img class="preloader___photo" src="biglogo.png" height="200px">
+</div>
       <table class="HomeHeader"><td class="HomeHeaderLogo"><a href="index.html"><img src="biglogo.png" height="35px"></a></td></table>
                 <div class="First-Page-Title"><a class="GenTitle">Альба</a><br><a class="SubGenTitle">Група компаній</a></div>
 
