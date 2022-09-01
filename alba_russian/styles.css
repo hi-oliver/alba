@@ -429,3 +429,107 @@ text-align: center;
   font-size: 12px;
   margin: auto;
 }
+.progs-info {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  opacity: 0.7;
+  text-align: center;
+  font-size: 12px;
+  margin: auto;
+}
+.progs-footnote {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  opacity: 0.5;
+  text-align: center;
+  font-size: 11px;
+  margin: auto;
+}
+.footnote_container {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10px;
+}
+.PROGS_block_webcomp {
+    background-image: url(progsPage_imgG.png);
+  background-size: contain;
+  background-clip: border-box;
+  background-position: center;
+  background-color: #202020;
+  position: relative;
+  text-align: center;
+  margin: auto;
+  border-radius: 15px;
+  max-width: 370px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+.PROGS_block_webshop {
+    background-image: url(progsPage_imgG.png);
+  background-size: contain;
+  background-clip: border-box;
+  background-position: center;
+  background-color: #202020;
+  opacity: 0.2;
+  position: relative;
+  text-align: center;
+  margin: auto;
+  border-radius: 15px;
+  max-width: 370px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+.PROGS_block_mobshop {
+    background-image: url(progsPage_imgB.png);
+  background-size: contain;
+  background-clip: border-box;
+  background-position: center;
+  background-color: #202020;
+  opacity: 0.2;
+  position: relative;
+  text-align: center;
+  margin: auto;
+  border-radius: 15px;
+  max-width: 370px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+.PROGS_block_specprog {
+  background-image: url(progsPage_imgOS.png);
+  background-size: contain;
+  background-clip: border-box;
+  background-position: center;
+  background-color: #202020;
+  opacity: 0.2;
+  position: relative;
+  text-align: center;
+  margin: auto;
+  border-radius: 15px;
+  max-width: 370px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+.PROGS_block_mobprog {
+  background-image: url(progsPage_imgB.png);
+  background-size: contain;
+  background-clip: border-box;
+  background-position: center;
+  background-color: #202020;
+  position: relative;
+  text-align: center;
+  margin: auto;
+  border-radius: 15px;
+  max-width: 370px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+.PROGS_block_StandartTitle {
+  color: #fff;
+}
