@@ -28,7 +28,8 @@ window.onload = function () {
   <div class="preloader">
  <img class="preloader___photo" src="biglogo.png" height="200px">
 </div>
-      <table class="HomeHeader"><td class="HomeHeaderLogo"><a href="index.html"><img src="biglogo.png" height="35px"></a></td></table>
+<table class="HomeHeader"><td class="HH_lang"><a href="#openModal"><img src="Flag_of_Russia.svg" width="20px" class="LANGUAGE_IMAGE"></a></td>
+<td class="HomeHeaderLogo"><a href="index.html"><img src="AlbaProgsLogo.png" height="35px"></a></td><td class="HH_lang"></td></table>
                 <div class="First-Page-Title"><a class="GenTitle">Альба</a><br><a class="SubGenTitle">Группа компаний</a></div>
 
       <div class="First_Page_Building_Block"><a class="First_Page_Building_Block_GTitile">Такие разные, но уютные.</a><br><a class="WHITE_Block_SBTitile">Строим дома комфорт класса, </a><a class="WHITE_Block_Link" href="/alba/alba_russian/building.html">посмотреть</a><a class="WHITE_Block_SBTitile">.</a>
@@ -42,9 +43,26 @@ window.onload = function () {
                 </div>
 
 <div class="CELLAR">
-      <div id="LangBACKGROUND"><div class="LangCONTAINER"><a class="LanguageTitle">Выберите язык:</a><br><a class="SelectedLangLink">&nbsp;</a><br><a class="SelectedLangLink">Русский</a><br><a class="SelectLangLink" href="/alba/alba_ukrainian/">Українська</a><br>
-        <a class="SelectLangLink" href="/alba/alba_deutsch">Deutsch</a><br><a class="SelectedLangLink">&nbsp;</a><br><a href="#" class="SelectLangLinkBack">Назад</a></div></div>
-          <a class="LinkToLanguageSelect" href="#LangBACKGROUND">Выберите язык...</a><br><br>
+  <div class="CELLAR">
+    <div id="openModal" class="modal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title">Выберите язык</h3>
+            <a href="#close" title="Close" class="close">×</a>
+          </div>
+          <div class="modal-body">
+            <ul class="tect">
+          <li class="SelectedLangLink"><img src="Flag_of_Russia.svg" width="20px" class="LANGUAGE_IMAGES">Русский язык</li>
+          <br><li class="SelectLangLink" href=""><img src="Flag_of_the_United_Kingdom_(3-5).svg" width="20px" class="LANGUAGE_IMAGES">English</li>
+          <br><li><a href="/alba/alba_deutsch/"  class="SelectLangLink"><img src="Flag_of_Germany.svg" width="20px" class="LANGUAGE_IMAGES">Deutsch</a></li>
+          <br><li><a href="/alba/alba_ukrainian/"  class="SelectLangLink"><img src="ukr.png" width="20px" class="LANGUAGE_IMAGES">Українська</a></li>
+        </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+            <a class="LinkToLanguageSelect" href="#openModal">Выберите язык...</a><br><br>
     <div class="CELLAR-NAV"><a href="building.html" id="CEL-TDN">Строительство жилых кварталов</a>
       <a id="CEL-CUT"> | </a><a href="/ru" id="CEL-TDN">Сайт сети пиццерий "Оливер"</a>
       <a id="CEL-CUT"> | </a><a href="/alba/alba_russian/progs.html" id="CEL-TDN">Разработка программного обеспечения и веб-ресурсов</a>
