@@ -391,6 +391,14 @@ text-align: center;
   padding-left: 0;
   color: #fff;
 }
+.Sub_UL_on_1block_buildpageG {
+  list-style-type: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  margin-left: 0;
+  padding-left: 0;
+  color: #005D00;
+}
 #NUMB_LI {
   list-style-type: none;
   font-family: 'Roboto', sans-serif;
@@ -399,9 +407,37 @@ text-align: center;
   padding-left: 0;
   color: #fff;
 }
+.added-build-info {
+  list-style-type: disc;
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+  margin-left: 0;
+  padding-left: 0;
+  color: #fff;
+}
+.added-build-info-li {
+  list-style-type: disc;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  margin-left: 0;
+  opacity: 0.5;
+  padding-left: 0;
+  color: #fff;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#NUMB_LIg {
+  list-style-type: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  margin-left: 0;
+  padding-left: 0;
+  color: #005D00;
+}
 .BuildPage_colorful_fffRED {
-  background-image: url(background_builds.png);
+  background-image: url(VodograiBackGR.png);
   background-size: contain;
+  background-repeat: round;
   background-color: #FF7575;
   position: relative;
   text-align: center;
@@ -413,10 +449,14 @@ text-align: center;
   margin-bottom: 10px;
 }
 .VODOGRAI {
-  color: #991515;
+  color: #6A0F0F;
+}
+.NOVAYAPALITRA {
+  color: #003500;
+  list-style-type: none;
 }
 .BuildPage_colorful_fffBLUE {
-  background-image: url(background_builds.png);
+  background-image: url(BeregovoiBackGR.png);
   background-size: contain;
   background-color: #58C9D8;
   position: relative;
@@ -429,10 +469,10 @@ text-align: center;
   margin-bottom: 10px;
 }
 .BEREGOVOI {
-  color: #087188;
+  color: #fff;
 }
 .BuildPage_colorful_fffYELLOW {
-  background-image: url(background_builds.png);
+  background-image: url(VostkoBackGR.png);
   background-size: contain;
   background-color: #E3E34C;
   position: relative;
@@ -447,10 +487,85 @@ text-align: center;
 .VOSTKO {
   color: #9C9C00;
 }
+.TERNEI {
+  color: #fff;
+}
+.BuildPage_colorful_fffgreen {
+  background-image: url(NovayaPalitraBackGR.png);
+  background-size: contain;
+  background-repeat: round;
+  background-color: #60ff6c;
+  position: relative;
+  text-align: center;
+  margin: auto;
+  border-radius: 15px;
+  max-width: 370px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+.Build_State_Info {
+  position: relative;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  width: auto;
+  height: 14px;
+  font-size: 11px;
+  opacity: 0.7;
+  background-color: #000;
+  border-radius: 10px;
+  font-weight: 550;
+  text-align: left;
+  margin-left: 10px;
+}
+.VOSTKO {
+  color: #9C9C00;
+}
+#Color1 {
+  color: #EB5045;
+}
+#Color2 {
+  color: #FFFF69;
+}
+#Color3 {
+  color: #CEFFCD;
+}
+#Color4 {
+  color: #00B4FF;
+}
+#Color5 {
+  color: #2C37F5;
+}
 .BuildPage_colorful_fffBLACK {
-  background-image: url(background_builds.png);
+  background-image: url(GotikaBackGR.png);
   background-size: contain;
   background-color: #000000;
+  position: relative;
+  text-align: center;
+  margin: auto;
+  border-radius: 15px;
+  max-width: 370px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.BuildPage_GeneralHousesDescr {
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px) saturate(100%) contrast(100%) brightness(100%);
+  position: relative;
+  text-align: center;
+  margin: auto;
+  max-width: 370px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+.BuildPage_colorful_fffGREY {
+  background-image: url(background_builds.png);
+  background-size: 100%;
+  background-color: #272727;
   position: relative;
   text-align: center;
   margin: auto;
@@ -466,7 +581,7 @@ text-align: center;
 .build-info {
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  color: #fff;
+  color: #000;
   opacity: 0.5;
   text-align: center;
   font-size: 12px;
@@ -767,7 +882,7 @@ text-align: center;
 }
 .MenuBarFreePoint {
   font-family: "Raleway", sans-serif;
-  font-size: 15px;
+  font-size: 13px;
   color: #fff;
   text-decoration: none;
 }
