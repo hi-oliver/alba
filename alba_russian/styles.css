@@ -58,6 +58,27 @@ BODY {
 .loaded .preloader {
   display: none;
 }
+.StandartUl {
+  font-family: 'Raleway', sans-serif;
+  color: #fff;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 20px;
+  text-align: left;
+  font-weight: 550;
+}
+.StandartLi {
+  list-style-type: none;
+  font-family: 'Raleway', sans-serif;
+  color: #fff;
+  opacity: 0.7;
+  font-size: 15px;
+  text-align: left;
+  font-weight: 500;
+}
+.StandartLiNumbers {
+  font-family: 'Roboto', sans-serif;
+}
 .GenTitle {
   font-family: 'Raleway', sans-serif;
   color: #fff;
@@ -204,6 +225,22 @@ BODY {
 .Semi_Page_Building_Block {
   padding-top: 15px;
   margin-bottom: 10px;
+}
+.StandartInfoDescription {
+  font-family: 'Raleway', sans-serif;
+  color: #fff;
+  opacity: 0.7;
+  font-size: 15px;
+  text-align: center;
+  font-weight: 500;
+}
+.StandartInfoblock_TITLE {
+  font-family: 'Raleway', sans-serif;
+  margin: 10px;
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  font-weight: 550;
 }
 .First_Page_Building_Block_GTitile {
   font-family: 'Raleway', sans-serif;
@@ -611,7 +648,7 @@ text-align: center;
   margin-bottom: 10px;
 }
 .PROGS_block_webcomp {
-    background-image: url(progsPage_imgG.png);
+    background-image: url(progsPage_imgOS.png);
   background-size: contain;
   background-clip: border-box;
   background-position: center;
@@ -626,7 +663,7 @@ text-align: center;
   margin-bottom: 10px;
 }
 .PROGS_block_webshop {
-    background-image: url(progsPage_imgG.png);
+    background-image: url(progsPage_imgSHP.png);
   background-size: contain;
   background-clip: border-box;
   background-position: center;
