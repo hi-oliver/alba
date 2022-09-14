@@ -931,3 +931,33 @@ text-align: center;
   position: relative;
   margin: auto;
 }
+.genBuildingBanner {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.genBuildingBannerBorder {
+  float: left;
+  text-align: left;
+  color: #fff;
+  font-size: 13px;
+  font-family: 'Raleway', sans-serif;
+
+  padding-bottom: 5px;
+}
+.genBuildingBannerBorder2 {
+  text-align: left;
+  color: #fff;
+  font-size: 13px;
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+.BuildBannerGenTitle {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 45px;
+  color: #61A1A3;
+  font-weight: lighter;
+}
