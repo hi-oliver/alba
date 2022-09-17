@@ -941,6 +941,33 @@ text-align: center;
   font-size: 13px;
   text-align: left;
 }
+.JK_modal_generalinfo3 {
+  background-image: url(beregovoi.png);
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  color: black;
+  font-size: 13px;
+  text-align: left;
+}
+.JK_modal_generalinfo4 {
+  background-image: url(gotika.png);
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  color: black;
+  font-size: 13px;
+  text-align: left;
+}
+.JK_modal_generalinfo5 {
+  background-image: url(vostco.png);
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  color: black;
+  font-size: 13px;
+  text-align: left;
+}
 #NumbJKs {
   color: black;
   font-size: 13px;
