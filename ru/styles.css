@@ -11,10 +11,11 @@ BODY {
   right: 0;
   bottom: 0;
   overflow: hidden;
-  background: #3d3d3d;
+  background: #fff;
   z-index: 9998;
 }
 .preloader___photo{
+  margin-top: 400px;
   z-index: 9999;
   animation: loading 5s infinite ease-in-out;
 }
