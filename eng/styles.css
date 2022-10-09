@@ -133,7 +133,7 @@ BODY {
 }
 .First-Page-Title {
   padding-top: 50px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 .First_Page_Building_Block {
   padding-top: 15px;
@@ -453,7 +453,7 @@ text-align: center;
   color: #fff;
 }
 .added-build-info-li {
-  list-style-type: disc;
+  list-style-type: none;
   font-family: 'Raleway', sans-serif;
   font-size: 14px;
   margin-left: 0;
@@ -462,6 +462,15 @@ text-align: center;
   color: #fff;
   margin-left: 10px;
   margin-right: 10px;
+}
+.libui_numb {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  margin-left: 0;
+  opacity: 0.9;
+  padding-left: 0;
+  color: #fff;
+  font-weight: lighter;
 }
 #NUMB_LIg {
   list-style-type: none;
@@ -521,8 +530,8 @@ text-align: center;
   padding-bottom: 5px;
   margin-bottom: 10px;
 }
-.VOSTKO {
-  color: #9C9C00;
+.EastwardColor {
+  color: #383814;
 }
 .TERNEI {
   color: #fff;
@@ -559,13 +568,13 @@ text-align: center;
   color: #9C9C00;
 }
 #Color1 {
-  color: #EB5045;
+  color: #4a37f0;
 }
 #Color2 {
-  color: #FFFF69;
+  color: #7537f0;
 }
 #Color3 {
-  color: #CEFFCD;
+  color: #a637f0;
 }
 #Color4 {
   color: #00B4FF;
