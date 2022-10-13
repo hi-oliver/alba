@@ -434,7 +434,7 @@ text-align: center;
   font-size: 20px;
   margin-left: 0;
   padding-left: 0;
-  color: #005D00;
+  color: #000;
 }
 #NUMB_LI {
   list-style-type: none;
@@ -478,7 +478,7 @@ text-align: center;
   font-size: 20px;
   margin-left: 0;
   padding-left: 0;
-  color: #005D00;
+  color: #000;
 }
 .BuildPage_colorful_fffRED {
   background-image: url(VodograiBackGR.png);
