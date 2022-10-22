@@ -28,8 +28,44 @@
       }</style>
   </head>
   <body style="background-color: #387069">
-    <div class="First_Page_Building_Block_GTitile" style="padding-top: 35px;">Making the site better,</div>
-    <br><div style="text-align: center"><img src="bigwhitelogo.png" width="100px" style="opacity: 0.2; animation: RisE 5s infinite ease-in-out"></div>
-    <br><div class="WHITE_Block_SBTitile">use the site later or go to the <a class="WHITE_Block_Link"  href="index.html" style="color: #14302d" >welcome page</a>.</div>
+    <script>
+  window.onload = function () {
+    document.body.classList.add('loaded_hiding');
+    window.setTimeout(function () {
+      document.body.classList.add('loaded');
+      document.body.classList.remove('loaded_hiding');
+    }, 500);
+  }
+  </script>
+    <div class="preloader">
+
+  </div>
+  <table class="HomeHeader" style="background: none"><td class="HH_lang"><a></a></td>
+  <td class="HomeHeaderLogo"><a href="index.html"><img src="bigwhitelogo.png" height="35px"></a></td><td id="HH_menubar"><a href="#menuBar"><div id="HH_menubar">
+    <span></span>
+    <span></span>
+    <span></span></div></a>
+  </td></table>
+  <div id="menuBar" class="modal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <div class="modal-body">
+                  <a href="#close" title="Close" class="close">×</a>
+          <table id="MenuBarContainer">
+            <td class="MenuBarContainer-TDs"><a class="MenuBarFreePoint" href="index.html"><img src="MenuBarHome.png" width="50px"><br>Greetings</a></td>
+            <td class="MenuBarContainer-TDs"><a class="MenuBarFreePoint" href="/alba/eng/building.html"><img src="MenuBar_building.png" width="50px"><br>Houses</a></td>
+            <td class="MenuBarContainer-TDs"><a class="MenuBarFreePoint" href="/ru"><img src="OliverWhite.png" width="50px" height="50px"><br>Oliver</a></td>
+            <td class="MenuBarContainer-TDs"><a class="MenuBarFreePoint" href="/alba/eng/progs.html"><img src="MenuBarProgs.png" width="50px"><br>ArisePro</a></td>
+
+</table>
+
+        </div>
+      </div>
+    </div>
+  </div>
+    <div class="First_Page_Building_Block_MAINTitile" style="padding-top: 60px;">Making the site better,</div>
+    <div class="Upd_figures_keeper"><div id="Upd_inner_figure_Square"></div><div id="Upd_inner_figure_Square"></div><div id="Upd_inner_figure_Square"></div></div>
+    <div class="WHITE_Block_SBTitile">use the site later or go to the <a class="WHITE_Block_Link"  href="index.html" style="color: #b7ede2" >welcome page</a>.</div>
   </body>
 </html>
