@@ -390,7 +390,7 @@ text-align: center;
   font-size: 20px;
   margin-left: 0;
   padding-left: 0;
-  color: #000;
+  color: #fff;
 }
 #NUMB_LI {
   list-style-type: none;
@@ -454,7 +454,7 @@ text-align: center;
   color: #6A0F0F;
 }
 .NOVAYAPALITRA {
-  color: #003500;
+  color: #761C1C;
   list-style-type: none;
 }
 .BuildPage_colorful_fffBLUE {
